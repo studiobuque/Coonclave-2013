@@ -1,50 +1,42 @@
 /*=======================================================================
 
 	❤❤❤ Gumby by Digital Surgeons. ❤❤❤
-	
-	*** This is where you should keep all of your TEXT styles ***
- 
- ========================================================================*/
- 
- 	
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+	*** This is where you should keep all of your TEXT styles ***
+
+ ========================================================================*/
+
+
+
+ @import url(http://fonts.googleapis.com/css?family=Rambla|Lora|Lobster);
+
+body{
+	font-family: Rambla;
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Lora;
+}
+
+blockquote{
+	font-family: Lobster;
+	font-size: 2em;
+}
+
+
  /* ==|== media queries ======================================================
     PLACEHOLDER Media Queries for Responsive Design.
     These override the primary ('mobile first') styles
     Modify as content requires.
     ========================================================================== */
- 
+
  @media only screen and (min-width: 480px) {
    /* Style adjustments for viewports 480px and over go here */
- 
+
  }
- 
+
  @media only screen and (min-width: 768px) {
    /* Style adjustments for viewports 768px and over go here */
- 
+
  }
