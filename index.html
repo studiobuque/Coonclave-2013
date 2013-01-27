@@ -16,7 +16,7 @@ Para poder combinarlos esta la opcion de: http://subgit.com/documentation/gitsvn
 	<meta charset="utf-8" >
 
 	<link rel="stylesheet" href="css/normalize.min.css">
-	<link rel="stylesheet" href="css/main.css">
+	<!-- <link rel="stylesheet" href="css/main.css"> -->
 	<!-- CSS imports non-minified for staging, minify before moving to production-->
 	<link rel="stylesheet" href="css/imports.css">
 
@@ -30,51 +30,106 @@ Para poder combinarlos esta la opcion de: http://subgit.com/documentation/gitsvn
 	<!--[if lt IE 7]>
 		<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 	<![endif]-->
-<div class="container">
 
-<header>
-	<h1>Página para el nuevo Ovispo 2013</h1>
-	<nav>
-		<ul>
-			<li><a href="#">Elemento</a></li>
-			<li><a href="#">Elemento</a></li>
-			<li><a href="#">Elemento</a></li>
-		</ul>
-	</nav>
+
+<header class="cabeza">
+	<div class="container">
+		<div class="row">
+			<div class="row cabeza_arq">
+				<a href="#">Arquidiocesis de Tuxtla</a> | <a href="#">Pastorales</a> | <a href="#">Parroquias</a> | <a href="#">Radio Effetá</a>
+			</div>
+			<div class="row cabeza_logo">
+				<h1>Ovispo 2013</h1>
+			</div>
+			<div class="row cabeza_inf">
+				<div class="four columns">
+					<img src="img/cabeza.jpg">
+					<!-- Poner una animacion para que pasen varias fotos -->
+				</div>
+				<div class="eight columns">
+					<img src="img/qu1.png" style="float:left; margin-right: 5px;">
+					<div class="cabeza_inf_tex">En el Cristianismo, un obispo ( del latín episcopus; en griego ἐπίσκοπος, 'vigilante, inspector, supervisor, superintendente') es un sacerdote que recibe el sacramento del orden sacerdotal en su máximo grado, que es el episcopado. Casi todas las confesiones cristianas cuentan con obispos, como la Iglesia católica, las Iglesias ortodoxas y algunas iglesias protestantes.</div>
+					<!-- <img src="img/qu2.png" style="float:right; margin-left: 5px;"> -->
+				</div>
+			</div>
+			<nav class="pretty navbar clearfix" id="cabezamenu">
+				<a href="#" class="toggle" data-for="#cabezamenu > ul"><img src="img/icon_nav_toggle.gif" /></a>
+				<ul>
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Biografia</a></li>
+					<li><a href="#">Arquidiocesis</a></li>
+					<li><a href="#">Reservado</a></li>
+					<li><a href="#">Reservado</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div><!-- fin div.container -->
 </header>
 
-<article>
-	<section>
-		<h2>Titulo de entrada</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	</section>
+
+<div class="container">
+<div class="row">
+
+<!-- <article class="eight columns"> -->
+<article class="nine columns">
+	<div class="row">
+		<section class="six columns">
+			<h2>Titulo de entrada</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<blockquote>Llamada o descanso</blockquote>
+		</section>
+		<section class="six columns">
+			<h2>Titulo de entrada</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+			<form>
+				<dl class="field">
+					<dt class="text">
+						<input type="text" placeholder="Text input">
+					</dt>
+				</dl>
+			</form>
+		</section>
+	</div>
 </article>
 
-<aside>
-	<div class="widwet">
-		<h3>Titulo Widget</h3>
-		<li></li><a href="#">Lorem ipsum dolor sit amet</a>
-		<li></li><a href="#">Lorem ipsum dolor sit amet</a>
-		<li></li><a href="#">Lorem ipsum dolor sit amet</a>
-	</div>
-	<div class="widwet">
-		<h3>Titulo Widget</h3>
-		<li></li><a href="#">Lorem ipsum dolor sit amet</a>
-		<li></li><a href="#">Lorem ipsum dolor sit amet</a>
-		<li></li><a href="#">Lorem ipsum dolor sit amet</a>
-	</div>
-</aside>
 
-<footer>
-	Referencias y Legales
+<!-- <aside class="four columns"> -->
+<aside class="three columns">
+		<div class="widwet">
+			<h3>Titulo Widget</h3>
+			<li><a href="#">Lorem ipsum dolor sit amet</a></li>
+			<li><a href="#">Lorem ipsum dolor sit amet</a></li>
+			<li><a href="#">Lorem ipsum dolor sit amet</a></li>
+		</div>
+		<div class="widwet">
+			<h3>Titulo Widget</h3>
+			<li><a href="#">Lorem ipsum dolor sit amet</a></li>
+			<li><a href="#">Lorem ipsum dolor sit amet</a></li>
+			<li><a href="#">Lorem ipsum dolor sit amet</a></li>
+		</div>
+</aside>
+</div>
+</div><!-- fin div.container -->
+
+<footer class="pie">
+	<div class="container">
+		<dir class="row">
+			Referencias y Legales
+		</dir>
+	</div><!-- fin div.container -->
 </footer>
 
-</div><!-- fin div.container -->
 
 </body>
 </html>
